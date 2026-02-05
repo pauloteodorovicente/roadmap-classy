@@ -1,0 +1,50 @@
+# 📘 Manual de Organização de Projetos (V3.0) - Classy.co
+
+Este manual define o fluxo de trabalho "AI-First" da Classy.co, focado em alta produtividade, economia de tokens e zero débito técnico.
+
+## 🚀 O Método MAPA (Fluxo de Execução)
+
+O sucesso de um projeto depende de quanto você "afia o machado" antes de tocar o código.
+
+### 1. 🗺️ Mapear (90% Humano)
+* **Ação:** Definir o destino com absoluta clareza no papel ou Notion antes de abrir a IA.
+* **Documento:** `BRIEFING.md`.
+* **O que incluir:** Dores reais, ICP (perfil do cliente), funcionalidades essenciais e critérios de sucesso.
+* **Regra de Ouro:** Não deixe a IA tomar decisões estratégicas por você. Ela amplifica suas decisões, não as substitui.
+
+### 2. 🧪 Atomizar (20% Humano / 80% IA)
+* **Ação:** Quebrar o projeto em pequenos blocos de trabalho (Entregas).
+* **Documento:** `PRD.md` (Product Requirements Document).
+* **O que incluir:** Arquitetura de dados (Supabase) 100% em inglês e os "Stories" (tarefas atômicas).
+* **Boas Práticas:** Use o Gemini ou DeepSeek para processar documentos longos e criar o planejamento, economizando tokens do Claude Opus/Sonnet.
+
+### 3. 💻 Programar (5% Humano / 95% IA)
+* **Ação:** Execução via Claude Code, Antigravity ou Cursor.
+* **Configuração Obrigatória (`CLAUDE.md`):** * Desativar `auto-compact` para liberar memória RAM (tokens).
+    * Definir regras de proibição (Ex: "Não deletar banco de dados", "Não usar dados fakes").
+    * Nomenclatura semântica em inglês.
+* **Interação:** Prefira comandos `1, 2, 3` ou `A, B, C` para acelerar o feedback.
+
+### 4. ⚡ Ativar (5% Humano / 95% IA)
+* **Ação:** Deploy e Auditoria Final.
+* **Ferramentas:** Railway + Supabase.
+* **Checklist Final:** Revisão de segurança (LGPD), performance (carregamento rápido) e limpeza de redundâncias.
+
+---
+
+## 🛠️ Regras de Ouro do "LendárIA OS"
+
+1.  **Contexto Modular:** Nunca jogue 50 ideias num arquivo só. Use uma pasta por ferramenta.
+2.  **Workflow sobre Chat:** Não fique "batendo papo" com a IA. Crie workflows onde ela segue checklists automáticos.
+3.  **Consolidação de Débito:** Uma vez por mês, peça à IA para auditar o código e remover redundâncias.
+4.  **Versionamento:** Backups são feitos via **Git (Commit/Push)**, nunca criando cópias manuais de arquivos (`projeto_v2_final_final.zip`).
+
+---
+
+## 📚 Estrutura da Wiki (Conhecimento Central)
+
+Mantenha estes documentos sempre atualizados na aba **Wiki** do GitHub:
+* `Guia de Markdown`: Como formatar docs.
+* `Configuração do Ambiente`: Comandos para instalar Node, Claude Code e ferramentas da Stack.
+* `Dicionário de Identidade`: Tom de voz da Classy.co.
+* `Prompt Engineering`: Padrões de System Prompts para novos agentes.
