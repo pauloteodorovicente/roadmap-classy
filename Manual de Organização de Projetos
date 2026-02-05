@@ -1,6 +1,6 @@
-# 📘 Manual de Organização de Projetos (V3.0) - Classy.co
+# 📘 Manual de Organização de Projetos (V3.0) - Classyco
 
-Este manual define o fluxo de trabalho "AI-First" da Classy.co, focado em alta produtividade, economia de tokens e zero débito técnico.
+Este manual define o fluxo de trabalho "AI-First" da Classyco, focado em alta produtividade, economia de tokens e zero débito técnico.
 
 ## 🚀 O Método MAPA (Fluxo de Execução)
 
@@ -46,5 +46,5 @@ O sucesso de um projeto depende de quanto você "afia o machado" antes de tocar 
 Mantenha estes documentos sempre atualizados na aba **Wiki** do GitHub:
 * `Guia de Markdown`: Como formatar docs.
 * `Configuração do Ambiente`: Comandos para instalar Node, Claude Code e ferramentas da Stack.
-* `Dicionário de Identidade`: Tom de voz da Classy.co.
+* `Dicionário de Identidade`: Tom de voz da Classyco.
 * `Prompt Engineering`: Padrões de System Prompts para novos agentes.
