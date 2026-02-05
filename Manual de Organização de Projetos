@@ -1,4 +1,4 @@
-# 📘 Manual de Organização de Projetos (V3.0) - Classyco
+# 📘 Metodologia MAPA
 
 Este manual define o fluxo de trabalho "AI-First" da Classyco, focado em alta produtividade, economia de tokens e zero débito técnico.
 
@@ -32,7 +32,7 @@ O sucesso de um projeto depende de quanto você "afia o machado" antes de tocar 
 
 ---
 
-## 🛠️ Regras de Ouro do "LendárIA OS"
+## 🛠️ Regras de Ouro
 
 1.  **Contexto Modular:** Nunca jogue 50 ideias num arquivo só. Use uma pasta por ferramenta.
 2.  **Workflow sobre Chat:** Não fique "batendo papo" com a IA. Crie workflows onde ela segue checklists automáticos.
