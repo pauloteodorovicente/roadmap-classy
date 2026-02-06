@@ -1,6 +1,6 @@
-# 💡 Roadmap Classy.co
+# 💡 Roadmap Classyco
 
-Central de ideias, projetos e metodologias da Classy.co — de conceito inicial a produto lançado.
+Central de ideias, projetos e metodologias da Classyco — de conceito inicial a produto lançado.
 
 ---
 
@@ -144,7 +144,7 @@ Este é um repositório pessoal, mas se você tiver sugestões ou quiser colabor
 ## 📄 Licença
 
 Este repositório contém ideias e planejamentos estratégicos pessoais.  
-Todos os direitos reservados © 2026 Classy.co
+Todos os direitos reservados © 2026 Classyco
 
 ---
 
