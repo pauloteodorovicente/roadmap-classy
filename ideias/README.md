@@ -7,12 +7,13 @@ Este diretório contém todas as ideias de projetos, apps e ferramentas da agên
 ## 📂 Estrutura de Pastas
 
 Cada ideia tem sua própria pasta seguindo o padrão:
-
+````
 /ideias/
 ├── nome-do-projeto/
 │   ├── README.md (obrigatório - descrição da ideia)
 │   ├── BRIEFING.md (opcional - detalhamento)
 │   └── PRD.md (apenas quando for programar)
+````
 
 ---
 
